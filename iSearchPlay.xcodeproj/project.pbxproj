@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2424821CE1ADBA00FE41F7 /* SearchCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2424811CE1ADBA00FE41F7 /* SearchCellTableViewCell.m */; };
+		6E8F24CD1D93949E005224C0 /* libfinger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8F24CB1D93949E005224C0 /* libfinger.a */; };
 		6EFCC1841CD1E62500CDFAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1831CD1E62500CDFAE2 /* main.m */; };
 		6EFCC1871CD1E62500CDFAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1861CD1E62500CDFAE2 /* AppDelegate.m */; };
 		6EFCC18A1CD1E62500CDFAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1891CD1E62500CDFAE2 /* ViewController.m */; };
@@ -15,6 +17,37 @@
 		6EFCC1921CD1E62500CDFAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCC1901CD1E62500CDFAE2 /* LaunchScreen.storyboard */; };
 		6EFCC19D1CD1E62600CDFAE2 /* iSearchPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC19C1CD1E62600CDFAE2 /* iSearchPlayTests.m */; };
 		6EFCC1A81CD1E62600CDFAE2 /* iSearchPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1A71CD1E62600CDFAE2 /* iSearchPlayUITests.m */; };
+		6EFCC1CF1CD1E80300CDFAE2 /* JVYoutubePlayerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1B81CD1E80300CDFAE2 /* JVYoutubePlayerConstants.m */; };
+		6EFCC1D01CD1E80300CDFAE2 /* JVYoutubePlayerView-iFrame.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCC1BA1CD1E80300CDFAE2 /* JVYoutubePlayerView-iFrame.html */; };
+		6EFCC1D11CD1E80300CDFAE2 /* JVYoutubePlayerView+Playback.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1BF1CD1E80300CDFAE2 /* JVYoutubePlayerView+Playback.m */; };
+		6EFCC1D21CD1E80300CDFAE2 /* JVYoutubePlayerView+PlayerControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1C11CD1E80300CDFAE2 /* JVYoutubePlayerView+PlayerControls.m */; };
+		6EFCC1D31CD1E80300CDFAE2 /* JVYoutubePlayerView+Queuing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1C31CD1E80300CDFAE2 /* JVYoutubePlayerView+Queuing.m */; };
+		6EFCC1D41CD1E80300CDFAE2 /* NSString+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1C51CD1E80300CDFAE2 /* NSString+Addons.m */; };
+		6EFCC1D51CD1E80300CDFAE2 /* UIWebView+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1C71CD1E80300CDFAE2 /* UIWebView+Addons.m */; };
+		6EFCC1D61CD1E80300CDFAE2 /* JVPlayerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1CA1CD1E80300CDFAE2 /* JVPlayerConstants.m */; };
+		6EFCC1D71CD1E80300CDFAE2 /* JVYoutubePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1CE1CD1E80300CDFAE2 /* JVYoutubePlayerView.m */; };
+		6EFCC1E81CD1E8B800CDFAE2 /* ChameleonStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1DC1CD1E8B800CDFAE2 /* ChameleonStatusBar.m */; };
+		6EFCC1E91CD1E8B800CDFAE2 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1DE1CD1E8B800CDFAE2 /* NSArray+Chameleon.m */; };
+		6EFCC1EA1CD1E8B800CDFAE2 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1E01CD1E8B800CDFAE2 /* UIColor+Chameleon.m */; };
+		6EFCC1EB1CD1E8B800CDFAE2 /* UIColor+CIELAB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1E21CD1E8B800CDFAE2 /* UIColor+CIELAB.m */; };
+		6EFCC1EC1CD1E8B800CDFAE2 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1E41CD1E8B800CDFAE2 /* UIViewController+Chameleon.m */; };
+		6EFCC1ED1CD1E8B800CDFAE2 /* SphereMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC1E71CD1E8B800CDFAE2 /* SphereMenu.m */; };
+		6EFCC1EF1CD2300E00CDFAE2 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC1EE1CD2300E00CDFAE2 /* GoogleMobileAds.framework */; };
+		6EFCC1F81CD2303B00CDFAE2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCC1F71CD2303B00CDFAE2 /* README.txt */; };
+		6EFCC1FA1CD2EAC500CDFAE2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC1F91CD2EAC500CDFAE2 /* AdSupport.framework */; };
+		6EFCC1FC1CD2EAD500CDFAE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC1FB1CD2EAD500CDFAE2 /* AudioToolbox.framework */; };
+		6EFCC1FE1CD2EAE100CDFAE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC1FD1CD2EAE100CDFAE2 /* AVFoundation.framework */; };
+		6EFCC2001CD2EAF000CDFAE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC1FF1CD2EAF000CDFAE2 /* CoreGraphics.framework */; };
+		6EFCC2021CD2EB0100CDFAE2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC2011CD2EB0100CDFAE2 /* CoreMedia.framework */; };
+		6EFCC2041CD2EB1000CDFAE2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC2031CD2EB1000CDFAE2 /* CoreTelephony.framework */; };
+		6EFCC2061CD2EB2000CDFAE2 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC2051CD2EB2000CDFAE2 /* EventKitUI.framework */; };
+		6EFCC2081CD2EB3900CDFAE2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC2071CD2EB3900CDFAE2 /* MediaPlayer.framework */; };
+		6EFCC20A1CD2EB4900CDFAE2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC2091CD2EB4900CDFAE2 /* MessageUI.framework */; };
+		6EFCC20C1CD2EB5900CDFAE2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC20B1CD2EB5900CDFAE2 /* StoreKit.framework */; };
+		6EFCC20E1CD2EB6600CDFAE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFCC20D1CD2EB6600CDFAE2 /* SystemConfiguration.framework */; };
+		6EFCC2141CD3424500CDFAE2 /* EditViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC2131CD3424500CDFAE2 /* EditViewCell.m */; };
+		6EFCC2171CD45DF400CDFAE2 /* YoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC2161CD45DF300CDFAE2 /* YoutubeParser.m */; };
+		8F4EBDE38370F26C68AD3D20 /* libPods-iSearchPlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F89986AD0573D76B345492FA /* libPods-iSearchPlay.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2064DE67055EBA69897614EA /* Pods-iSearchPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSearchPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSearchPlay/Pods-iSearchPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		6E2424801CE1ADBA00FE41F7 /* SearchCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCellTableViewCell.h; sourceTree = "<group>"; };
+		6E2424811CE1ADBA00FE41F7 /* SearchCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCellTableViewCell.m; sourceTree = "<group>"; };
+		6E8F24CB1D93949E005224C0 /* libfinger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfinger.a; path = libs/libfinger.a; sourceTree = "<group>"; };
+		6E8F24CC1D93949E005224C0 /* finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = finger.h; path = libs/finger.h; sourceTree = "<group>"; };
 		6EFCC17F1CD1E62500CDFAE2 /* iSearchPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSearchPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFCC1831CD1E62500CDFAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EFCC1851CD1E62500CDFAE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +89,64 @@
 		6EFCC1A31CD1E62600CDFAE2 /* iSearchPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSearchPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFCC1A71CD1E62600CDFAE2 /* iSearchPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSearchPlayUITests.m; sourceTree = "<group>"; };
 		6EFCC1A91CD1E62600CDFAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFCC1B71CD1E80300CDFAE2 /* JVYoutubePlayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVYoutubePlayerConstants.h; sourceTree = "<group>"; };
+		6EFCC1B81CD1E80300CDFAE2 /* JVYoutubePlayerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVYoutubePlayerConstants.m; sourceTree = "<group>"; };
+		6EFCC1BA1CD1E80300CDFAE2 /* JVYoutubePlayerView-iFrame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "JVYoutubePlayerView-iFrame.html"; sourceTree = "<group>"; };
+		6EFCC1BB1CD1E80300CDFAE2 /* JVYoutubePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVYoutubePlayer.h; sourceTree = "<group>"; };
+		6EFCC1BE1CD1E80300CDFAE2 /* JVYoutubePlayerView+Playback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JVYoutubePlayerView+Playback.h"; sourceTree = "<group>"; };
+		6EFCC1BF1CD1E80300CDFAE2 /* JVYoutubePlayerView+Playback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JVYoutubePlayerView+Playback.m"; sourceTree = "<group>"; };
+		6EFCC1C01CD1E80300CDFAE2 /* JVYoutubePlayerView+PlayerControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JVYoutubePlayerView+PlayerControls.h"; sourceTree = "<group>"; };
+		6EFCC1C11CD1E80300CDFAE2 /* JVYoutubePlayerView+PlayerControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JVYoutubePlayerView+PlayerControls.m"; sourceTree = "<group>"; };
+		6EFCC1C21CD1E80300CDFAE2 /* JVYoutubePlayerView+Queuing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JVYoutubePlayerView+Queuing.h"; sourceTree = "<group>"; };
+		6EFCC1C31CD1E80300CDFAE2 /* JVYoutubePlayerView+Queuing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JVYoutubePlayerView+Queuing.m"; sourceTree = "<group>"; };
+		6EFCC1C41CD1E80300CDFAE2 /* NSString+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addons.h"; sourceTree = "<group>"; };
+		6EFCC1C51CD1E80300CDFAE2 /* NSString+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addons.m"; sourceTree = "<group>"; };
+		6EFCC1C61CD1E80300CDFAE2 /* UIWebView+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Addons.h"; sourceTree = "<group>"; };
+		6EFCC1C71CD1E80300CDFAE2 /* UIWebView+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Addons.m"; sourceTree = "<group>"; };
+		6EFCC1C91CD1E80300CDFAE2 /* JVPlayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVPlayerConstants.h; sourceTree = "<group>"; };
+		6EFCC1CA1CD1E80300CDFAE2 /* JVPlayerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVPlayerConstants.m; sourceTree = "<group>"; };
+		6EFCC1CC1CD1E80300CDFAE2 /* JVPlayerEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVPlayerEnums.h; sourceTree = "<group>"; };
+		6EFCC1CD1CD1E80300CDFAE2 /* JVYoutubePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVYoutubePlayerView.h; sourceTree = "<group>"; };
+		6EFCC1CE1CD1E80300CDFAE2 /* JVYoutubePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVYoutubePlayerView.m; sourceTree = "<group>"; };
+		6EFCC1D91CD1E8B800CDFAE2 /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		6EFCC1DA1CD1E8B800CDFAE2 /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		6EFCC1DB1CD1E8B800CDFAE2 /* ChameleonStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonStatusBar.h; sourceTree = "<group>"; };
+		6EFCC1DC1CD1E8B800CDFAE2 /* ChameleonStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonStatusBar.m; sourceTree = "<group>"; };
+		6EFCC1DD1CD1E8B800CDFAE2 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		6EFCC1DE1CD1E8B800CDFAE2 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		6EFCC1DF1CD1E8B800CDFAE2 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		6EFCC1E01CD1E8B800CDFAE2 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		6EFCC1E11CD1E8B800CDFAE2 /* UIColor+CIELAB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CIELAB.h"; sourceTree = "<group>"; };
+		6EFCC1E21CD1E8B800CDFAE2 /* UIColor+CIELAB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CIELAB.m"; sourceTree = "<group>"; };
+		6EFCC1E31CD1E8B800CDFAE2 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		6EFCC1E41CD1E8B800CDFAE2 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		6EFCC1E61CD1E8B800CDFAE2 /* SphereMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereMenu.h; sourceTree = "<group>"; };
+		6EFCC1E71CD1E8B800CDFAE2 /* SphereMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereMenu.m; sourceTree = "<group>"; };
+		6EFCC1EE1CD2300E00CDFAE2 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "iSearchPlay/GoogleMobileAdsSdkiOS-7.7.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		6EFCC1F11CD2303B00CDFAE2 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		6EFCC1F21CD2303B00CDFAE2 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		6EFCC1F31CD2303B00CDFAE2 /* GADMediationAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMediationAdRequest.h; sourceTree = "<group>"; };
+		6EFCC1F41CD2303B00CDFAE2 /* GADMEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
+		6EFCC1F51CD2303B00CDFAE2 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		6EFCC1F61CD2303B00CDFAE2 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		6EFCC1F71CD2303B00CDFAE2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6EFCC1F91CD2EAC500CDFAE2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6EFCC1FB1CD2EAD500CDFAE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6EFCC1FD1CD2EAE100CDFAE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6EFCC1FF1CD2EAF000CDFAE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EFCC2011CD2EB0100CDFAE2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6EFCC2031CD2EB1000CDFAE2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6EFCC2051CD2EB2000CDFAE2 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		6EFCC2071CD2EB3900CDFAE2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6EFCC2091CD2EB4900CDFAE2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6EFCC20B1CD2EB5900CDFAE2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6EFCC20D1CD2EB6600CDFAE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6EFCC2121CD3424500CDFAE2 /* EditViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewCell.h; sourceTree = "<group>"; };
+		6EFCC2131CD3424500CDFAE2 /* EditViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewCell.m; sourceTree = "<group>"; };
+		6EFCC2151CD45DF300CDFAE2 /* YoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeParser.h; sourceTree = "<group>"; };
+		6EFCC2161CD45DF300CDFAE2 /* YoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeParser.m; sourceTree = "<group>"; };
+		9A6C2048F4FE3B3D73B7E0B8 /* Pods-iSearchPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSearchPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSearchPlay/Pods-iSearchPlay.release.xcconfig"; sourceTree = "<group>"; };
+		F89986AD0573D76B345492FA /* libPods-iSearchPlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSearchPlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +154,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFCC20E1CD2EB6600CDFAE2 /* SystemConfiguration.framework in Frameworks */,
+				6EFCC20C1CD2EB5900CDFAE2 /* StoreKit.framework in Frameworks */,
+				6EFCC20A1CD2EB4900CDFAE2 /* MessageUI.framework in Frameworks */,
+				6EFCC2081CD2EB3900CDFAE2 /* MediaPlayer.framework in Frameworks */,
+				6E8F24CD1D93949E005224C0 /* libfinger.a in Frameworks */,
+				6EFCC2061CD2EB2000CDFAE2 /* EventKitUI.framework in Frameworks */,
+				6EFCC2041CD2EB1000CDFAE2 /* CoreTelephony.framework in Frameworks */,
+				6EFCC2021CD2EB0100CDFAE2 /* CoreMedia.framework in Frameworks */,
+				6EFCC2001CD2EAF000CDFAE2 /* CoreGraphics.framework in Frameworks */,
+				6EFCC1FE1CD2EAE100CDFAE2 /* AVFoundation.framework in Frameworks */,
+				6EFCC1FC1CD2EAD500CDFAE2 /* AudioToolbox.framework in Frameworks */,
+				6EFCC1FA1CD2EAC500CDFAE2 /* AdSupport.framework in Frameworks */,
+				6EFCC1EF1CD2300E00CDFAE2 /* GoogleMobileAds.framework in Frameworks */,
+				8F4EBDE38370F26C68AD3D20 /* libPods-iSearchPlay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +188,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E4AC346B74847F4CF9CA8D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2064DE67055EBA69897614EA /* Pods-iSearchPlay.debug.xcconfig */,
+				9A6C2048F4FE3B3D73B7E0B8 /* Pods-iSearchPlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6EFCC1761CD1E62500CDFAE2 = {
 			isa = PBXGroup;
 			children = (
+				6EFCC20D1CD2EB6600CDFAE2 /* SystemConfiguration.framework */,
+				6EFCC20B1CD2EB5900CDFAE2 /* StoreKit.framework */,
+				6EFCC2091CD2EB4900CDFAE2 /* MessageUI.framework */,
+				6EFCC2071CD2EB3900CDFAE2 /* MediaPlayer.framework */,
+				6EFCC2051CD2EB2000CDFAE2 /* EventKitUI.framework */,
+				6EFCC2031CD2EB1000CDFAE2 /* CoreTelephony.framework */,
+				6EFCC2011CD2EB0100CDFAE2 /* CoreMedia.framework */,
+				6EFCC1FF1CD2EAF000CDFAE2 /* CoreGraphics.framework */,
+				6EFCC1FD1CD2EAE100CDFAE2 /* AVFoundation.framework */,
+				6EFCC1FB1CD2EAD500CDFAE2 /* AudioToolbox.framework */,
+				6EFCC1F91CD2EAC500CDFAE2 /* AdSupport.framework */,
+				6EFCC1EE1CD2300E00CDFAE2 /* GoogleMobileAds.framework */,
 				6EFCC1811CD1E62500CDFAE2 /* iSearchPlay */,
 				6EFCC19B1CD1E62600CDFAE2 /* iSearchPlayTests */,
 				6EFCC1A61CD1E62600CDFAE2 /* iSearchPlayUITests */,
 				6EFCC1801CD1E62500CDFAE2 /* Products */,
+				3E4AC346B74847F4CF9CA8D8 /* Pods */,
+				8B7F44A7FAA9686816EEC29B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +234,22 @@
 		6EFCC1811CD1E62500CDFAE2 /* iSearchPlay */ = {
 			isa = PBXGroup;
 			children = (
+				6EFCC1F01CD2303B00CDFAE2 /* Mediation Adapters */,
+				6EFCC1D81CD1E8B800CDFAE2 /* Chameleon */,
+				6EFCC1E51CD1E8B800CDFAE2 /* Menu */,
+				6EFCC1B51CD1E80300CDFAE2 /* YoutubePlayer */,
 				6EFCC1851CD1E62500CDFAE2 /* AppDelegate.h */,
+				6E8F24CB1D93949E005224C0 /* libfinger.a */,
+				6E8F24CC1D93949E005224C0 /* finger.h */,
 				6EFCC1861CD1E62500CDFAE2 /* AppDelegate.m */,
 				6EFCC1881CD1E62500CDFAE2 /* ViewController.h */,
 				6EFCC1891CD1E62500CDFAE2 /* ViewController.m */,
+				6EFCC2151CD45DF300CDFAE2 /* YoutubeParser.h */,
+				6EFCC2161CD45DF300CDFAE2 /* YoutubeParser.m */,
+				6EFCC2121CD3424500CDFAE2 /* EditViewCell.h */,
+				6E2424801CE1ADBA00FE41F7 /* SearchCellTableViewCell.h */,
+				6E2424811CE1ADBA00FE41F7 /* SearchCellTableViewCell.m */,
+				6EFCC2131CD3424500CDFAE2 /* EditViewCell.m */,
 				6EFCC18B1CD1E62500CDFAE2 /* Main.storyboard */,
 				6EFCC18E1CD1E62500CDFAE2 /* Assets.xcassets */,
 				6EFCC1901CD1E62500CDFAE2 /* LaunchScreen.storyboard */,
@@ -140,6 +285,131 @@
 			path = iSearchPlayUITests;
 			sourceTree = "<group>";
 		};
+		6EFCC1B51CD1E80300CDFAE2 /* YoutubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1B61CD1E80300CDFAE2 /* Constants */,
+				6EFCC1B91CD1E80300CDFAE2 /* HTML */,
+				6EFCC1BB1CD1E80300CDFAE2 /* JVYoutubePlayer.h */,
+				6EFCC1BC1CD1E80300CDFAE2 /* Player */,
+			);
+			path = YoutubePlayer;
+			sourceTree = "<group>";
+		};
+		6EFCC1B61CD1E80300CDFAE2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1B71CD1E80300CDFAE2 /* JVYoutubePlayerConstants.h */,
+				6EFCC1B81CD1E80300CDFAE2 /* JVYoutubePlayerConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6EFCC1B91CD1E80300CDFAE2 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1BA1CD1E80300CDFAE2 /* JVYoutubePlayerView-iFrame.html */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		6EFCC1BC1CD1E80300CDFAE2 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1BD1CD1E80300CDFAE2 /* Categories */,
+				6EFCC1C81CD1E80300CDFAE2 /* Constants */,
+				6EFCC1CB1CD1E80300CDFAE2 /* Enums */,
+				6EFCC1CD1CD1E80300CDFAE2 /* JVYoutubePlayerView.h */,
+				6EFCC1CE1CD1E80300CDFAE2 /* JVYoutubePlayerView.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		6EFCC1BD1CD1E80300CDFAE2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1BE1CD1E80300CDFAE2 /* JVYoutubePlayerView+Playback.h */,
+				6EFCC1BF1CD1E80300CDFAE2 /* JVYoutubePlayerView+Playback.m */,
+				6EFCC1C01CD1E80300CDFAE2 /* JVYoutubePlayerView+PlayerControls.h */,
+				6EFCC1C11CD1E80300CDFAE2 /* JVYoutubePlayerView+PlayerControls.m */,
+				6EFCC1C21CD1E80300CDFAE2 /* JVYoutubePlayerView+Queuing.h */,
+				6EFCC1C31CD1E80300CDFAE2 /* JVYoutubePlayerView+Queuing.m */,
+				6EFCC1C41CD1E80300CDFAE2 /* NSString+Addons.h */,
+				6EFCC1C51CD1E80300CDFAE2 /* NSString+Addons.m */,
+				6EFCC1C61CD1E80300CDFAE2 /* UIWebView+Addons.h */,
+				6EFCC1C71CD1E80300CDFAE2 /* UIWebView+Addons.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6EFCC1C81CD1E80300CDFAE2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1C91CD1E80300CDFAE2 /* JVPlayerConstants.h */,
+				6EFCC1CA1CD1E80300CDFAE2 /* JVPlayerConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6EFCC1CB1CD1E80300CDFAE2 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1CC1CD1E80300CDFAE2 /* JVPlayerEnums.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		6EFCC1D81CD1E8B800CDFAE2 /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1D91CD1E8B800CDFAE2 /* Chameleon.h */,
+				6EFCC1DA1CD1E8B800CDFAE2 /* ChameleonMacros.h */,
+				6EFCC1DB1CD1E8B800CDFAE2 /* ChameleonStatusBar.h */,
+				6EFCC1DC1CD1E8B800CDFAE2 /* ChameleonStatusBar.m */,
+				6EFCC1DD1CD1E8B800CDFAE2 /* NSArray+Chameleon.h */,
+				6EFCC1DE1CD1E8B800CDFAE2 /* NSArray+Chameleon.m */,
+				6EFCC1DF1CD1E8B800CDFAE2 /* UIColor+Chameleon.h */,
+				6EFCC1E01CD1E8B800CDFAE2 /* UIColor+Chameleon.m */,
+				6EFCC1E11CD1E8B800CDFAE2 /* UIColor+CIELAB.h */,
+				6EFCC1E21CD1E8B800CDFAE2 /* UIColor+CIELAB.m */,
+				6EFCC1E31CD1E8B800CDFAE2 /* UIViewController+Chameleon.h */,
+				6EFCC1E41CD1E8B800CDFAE2 /* UIViewController+Chameleon.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		6EFCC1E51CD1E8B800CDFAE2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1E61CD1E8B800CDFAE2 /* SphereMenu.h */,
+				6EFCC1E71CD1E8B800CDFAE2 /* SphereMenu.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		6EFCC1F01CD2303B00CDFAE2 /* Mediation Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC1F11CD2303B00CDFAE2 /* GADMAdNetworkAdapterProtocol.h */,
+				6EFCC1F21CD2303B00CDFAE2 /* GADMAdNetworkConnectorProtocol.h */,
+				6EFCC1F31CD2303B00CDFAE2 /* GADMediationAdRequest.h */,
+				6EFCC1F41CD2303B00CDFAE2 /* GADMEnums.h */,
+				6EFCC1F51CD2303B00CDFAE2 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
+				6EFCC1F61CD2303B00CDFAE2 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
+				6EFCC1F71CD2303B00CDFAE2 /* README.txt */,
+			);
+			name = "Mediation Adapters";
+			path = "GoogleMobileAdsSdkiOS-7.7.1/Mediation Adapters";
+			sourceTree = "<group>";
+		};
+		8B7F44A7FAA9686816EEC29B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F89986AD0573D76B345492FA /* libPods-iSearchPlay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +417,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EFCC1AC1CD1E62600CDFAE2 /* Build configuration list for PBXNativeTarget "iSearchPlay" */;
 			buildPhases = (
+				5B63FACC25AD758D9DF590CC /* 📦 Check Pods Manifest.lock */,
 				6EFCC17B1CD1E62500CDFAE2 /* Sources */,
 				6EFCC17C1CD1E62500CDFAE2 /* Frameworks */,
 				6EFCC17D1CD1E62500CDFAE2 /* Resources */,
+				39301D3B352F592DCD31675B /* 📦 Embed Pods Frameworks */,
+				477E8BC664EEB711F1C4F51A /* 📦 Copy Pods Resources */,
+				6E01E7511CE38AC100907F49 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -207,6 +481,13 @@
 				TargetAttributes = {
 					6EFCC17E1CD1E62500CDFAE2 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V48RJ83RM5;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					6EFCC1971CD1E62600CDFAE2 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,9 +524,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFCC1D01CD1E80300CDFAE2 /* JVYoutubePlayerView-iFrame.html in Resources */,
 				6EFCC1921CD1E62500CDFAE2 /* LaunchScreen.storyboard in Resources */,
 				6EFCC18F1CD1E62500CDFAE2 /* Assets.xcassets in Resources */,
 				6EFCC18D1CD1E62500CDFAE2 /* Main.storyboard in Resources */,
+				6EFCC1F81CD2303B00CDFAE2 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +548,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39301D3B352F592DCD31675B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSearchPlay/Pods-iSearchPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		477E8BC664EEB711F1C4F51A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSearchPlay/Pods-iSearchPlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B63FACC25AD758D9DF590CC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E01E7511CE38AC100907F49 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ed2b17f6178d3d1d6b3700c94bcb93f46aef4a07 e490ab7b90087e757b5056aea7ba3cafb2fb38a97c0d7c73bd3c1ace4060f3be";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EFCC17B1CD1E62500CDFAE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFCC1D51CD1E80300CDFAE2 /* UIWebView+Addons.m in Sources */,
+				6E2424821CE1ADBA00FE41F7 /* SearchCellTableViewCell.m in Sources */,
+				6EFCC1EB1CD1E8B800CDFAE2 /* UIColor+CIELAB.m in Sources */,
+				6EFCC1D41CD1E80300CDFAE2 /* NSString+Addons.m in Sources */,
+				6EFCC1CF1CD1E80300CDFAE2 /* JVYoutubePlayerConstants.m in Sources */,
 				6EFCC18A1CD1E62500CDFAE2 /* ViewController.m in Sources */,
+				6EFCC1E91CD1E8B800CDFAE2 /* NSArray+Chameleon.m in Sources */,
+				6EFCC1D71CD1E80300CDFAE2 /* JVYoutubePlayerView.m in Sources */,
 				6EFCC1871CD1E62500CDFAE2 /* AppDelegate.m in Sources */,
+				6EFCC1D31CD1E80300CDFAE2 /* JVYoutubePlayerView+Queuing.m in Sources */,
+				6EFCC1EA1CD1E8B800CDFAE2 /* UIColor+Chameleon.m in Sources */,
+				6EFCC2141CD3424500CDFAE2 /* EditViewCell.m in Sources */,
 				6EFCC1841CD1E62500CDFAE2 /* main.m in Sources */,
+				6EFCC1EC1CD1E8B800CDFAE2 /* UIViewController+Chameleon.m in Sources */,
+				6EFCC1E81CD1E8B800CDFAE2 /* ChameleonStatusBar.m in Sources */,
+				6EFCC1D21CD1E80300CDFAE2 /* JVYoutubePlayerView+PlayerControls.m in Sources */,
+				6EFCC1D61CD1E80300CDFAE2 /* JVPlayerConstants.m in Sources */,
+				6EFCC2171CD45DF400CDFAE2 /* YoutubeParser.m in Sources */,
+				6EFCC1ED1CD1E8B800CDFAE2 /* SphereMenu.m in Sources */,
+				6EFCC1D11CD1E80300CDFAE2 /* JVYoutubePlayerView+Playback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +772,57 @@
 		};
 		6EFCC1AD1CD1E62600CDFAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2064DE67055EBA69897614EA /* Pods-iSearchPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Junsung Park (V48RJ83RM5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Junsung Park (V48RJ83RM5)";
+				DEVELOPMENT_TEAM = V48RJ83RM5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iSearchPlay/GoogleMobileAdsSdkiOS-7.7.1",
+				);
 				INFOPLIST_FILE = iSearchPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.junsoft.iSearchPlay;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iSearchPlay/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junsoft.isearchplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1842e551-e346-4efc-bdfe-9e8d36d23eb2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.junsoft.isearchplay";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6EFCC1AE1CD1E62600CDFAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6C2048F4FE3B3D73B7E0B8 /* Pods-iSearchPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Junsung Park (RL8Q5LC63T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Junsung Park (V48RJ83RM5)";
+				DEVELOPMENT_TEAM = V48RJ83RM5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iSearchPlay/GoogleMobileAdsSdkiOS-7.7.1",
+				);
 				INFOPLIST_FILE = iSearchPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.junsoft.iSearchPlay;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iSearchPlay/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junsoft.isearchplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1842e551-e346-4efc-bdfe-9e8d36d23eb2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.junsoft.isearchplay";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +893,7 @@
 				6EFCC1AE1CD1E62600CDFAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EFCC1AF1CD1E62600CDFAE2 /* Build configuration list for PBXNativeTarget "iSearchPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +902,7 @@
 				6EFCC1B11CD1E62600CDFAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EFCC1B21CD1E62600CDFAE2 /* Build configuration list for PBXNativeTarget "iSearchPlayUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +911,7 @@
 				6EFCC1B41CD1E62600CDFAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
